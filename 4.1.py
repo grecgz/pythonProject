@@ -16,9 +16,16 @@
 #  4
 #  Sample Output 2:
 #  NO
-a, b, c = int(input()), int(input()), int(input())
-an = b
-if an == (a + c) / 2:
-    print('YES')
+#                       4.1.8
+# a, b, c = int(input()), int(input()), int(input())
+# an = b
+# if an == (a + c) / 2:
+#     print('YES')
+# else:
+#     print('NO')
+#                       4.1.9
+x, y = int(input()), int(input())
+if x > y:
+    print(y)
 else:
-    print('NO')
+    print(x)
