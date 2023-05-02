@@ -24,8 +24,15 @@
 # else:
 #     print('NO')
 #                       4.1.9
-x, y = int(input()), int(input())
+# x, y = int(input()), int(input())
+# if x > y:
+#     print(y)
+# else:
+#     print(x)
+#                       4.1.10
+x, y, z, w = int(input()), int(input()), int(input()), int(input())
 if x > y:
-    print(y)
+if y > z:
+if z > w:
 else:
     print(x)
