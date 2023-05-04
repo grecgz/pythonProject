@@ -31,8 +31,12 @@
 #     print(x)
 #                       4.1.10
 x, y, z, w = int(input()), int(input()), int(input()), int(input())
-if x > y:
-if y > z:
-if z > w:
+if x < y:
+    x = y
+if z < w:
+    z = w
+if x < z:
+    x = z
 else:
     print(x)
+    
